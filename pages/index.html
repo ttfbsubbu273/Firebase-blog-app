@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Blog Login</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        <form method="POST">
+            <div class="text-field">
+                <label>Username</label>
+                <input type="emial" name="emailid" id="emailid" required/>
+                <span></span>
+            </div>
+
+            <div class="text-field">
+                <label>Password</label>
+                <input type="password" name="password" id="password" required/>
+                <span></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="login-btn">Login</button><br><br>
+            <button type="submit" class="btn btn-primary">Login with GOOGLE</button>
+
+            <div class="signup-link">
+                Not a member? <a href="signup.html">SignUp Here</a>
+            </div>
+        </form>
+    </div> 
+
+    <!-- <script src="../db.js"></script>
+    <script>
+        firebase.auth().onAuthStateChanged(function(user){
+            if(user)
+            {
+                window.location.href = "pages/home.html"
+            }
+        })
+    </script> -->
+</body>
+</html>

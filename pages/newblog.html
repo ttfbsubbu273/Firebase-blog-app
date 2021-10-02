@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Add New Blog</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Add New Blog</h1>
+        <form method="POST">
+            <div class="text-field">
+                <label>Blog Title</label>
+                <input type="emial" name="emailid" id="emailid" required/>
+                <span></span>
+            </div>
+
+            <div class="text-field">
+                <label>Blog Description</label>
+                <input type="text" name="description" id="description" required/>
+                <span></span>
+            </div>
+
+            <div class="text-field">
+                <label>Blog Image</label>
+                <input type="file" name="image" id="image" required/>
+                <span></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Reset Content</button><br><br>
+            <button type="submit" class="btn btn-primary">Add Blog</button>
+        </form>
+    </div> 
+</body>
+</html>
